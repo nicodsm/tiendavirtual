@@ -4,7 +4,8 @@ const close = document.querySelector('.fa-xmark');
 const body = document.querySelector('body');
 const header = document.querySelector('.header');
 const menuScroll = document.querySelector('#menuScroll');
-
+const iconosInfo = document.querySelectorAll('.icono');
+iconosInfo_array = [...iconosInfo];
 
 
 navToggle.addEventListener('click', () => {
@@ -159,3 +160,13 @@ window.onscroll = () => {
 
 
 
+iconosInfo_array.forEach(icono => {
+  icono.addEventListener('mouseenter', ()=>{
+    icono.classList.add("iconohover")
+
+    setTimeout(() => {
+      icono.classList.remove("iconohover")
+
+    }, 1000);
+  })
+});
