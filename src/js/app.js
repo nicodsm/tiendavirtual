@@ -10,6 +10,8 @@ iconosInfo_array = [...iconosInfo];
 
 navToggle.addEventListener('click', () => {
 
+  console.log('works...')
+
   if (menu.style.display == '') {
     menu.style.left = '0';
 
