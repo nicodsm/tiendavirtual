@@ -58,7 +58,7 @@
 
             </div>
             <div class="carrito">
-                <a href="#">
+                <a href="carrito">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <p>Mi carrito</p>
                 </a>

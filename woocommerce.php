@@ -2,7 +2,15 @@
 get_header();
 ?>
 
-<div class="woocommerce"><?php woocommerce_content(); ?></div>
+
+
+        <div class="woocommerce">
+            <?php woocommerce_content(); ?>
+        
+        </div>
+
+
+
 
 
 <?php

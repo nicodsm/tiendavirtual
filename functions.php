@@ -14,6 +14,8 @@ function leroma_setup() {
         'menu_responsive' => esc_html__('Menu Responsive', 'leromadeportes') 
     ) );
 
+
+
 }
 
 add_action('after_setup_theme', 'leroma_setup');
@@ -34,14 +36,9 @@ function leroma_scripts() {
 add_action('wp_enqueue_scripts', 'leroma_scripts');
 
 
+add_theme_support( 'woocommerce' );
 
 
 
-add_theme_support( 'wc-product-gallery-zoom' );
-add_theme_support( 'wc-product-gallery-lightbox' );
-add_theme_support( 'wc-product-gallery-slider' );
 
-add_action( 'after_setup_theme', function() {
-	add_theme_support( 'woocommerce' );
-} );
 
