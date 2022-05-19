@@ -50,7 +50,7 @@
 
         <div class="mi-cuenta">
             <div class="cuenta">
-                <a href="#">
+                <a href="<?php echo esc_url( home_url('/mi-cuenta')); ?>">
                     <i class="fa-regular fa-user"></i>
                     <p>Mi Cuenta</p>
 
@@ -58,7 +58,7 @@
 
             </div>
             <div class="carrito">
-                <a href="carrito">
+                <a href="<?php echo esc_url( home_url('/carrito')); ?>">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <p>Mi carrito</p>
                 </a>
